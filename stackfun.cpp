@@ -77,8 +77,11 @@ void stackop(stack<t1>* ptr)
                 ptr->display();
                 break;
             case 4:
-                typeop=7;
+                typeop=-1;
                 return;
+                break;
+            default:
+                cout<<"please enter correct option"<<endl;
                 break;
         }
     }
